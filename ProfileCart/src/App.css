@@ -1,0 +1,50 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto 16px auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 8px 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+li span {
+  display: inline-block;
+  width: 100px;
+}
+
+li div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  height: 10px;
+  background: #eee;
+  border-radius: 5px;
+  margin-left: 8px;
+  overflow: hidden;
+}
+
+li div > div {
+  height: 100%;
+  border-radius: 5px;
+}
